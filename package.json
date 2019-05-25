@@ -1,0 +1,27 @@
+{
+  "name": "patchql-graphql",
+  "version": "1.0.0",
+  "description": "Rust PatchQL for Open App GraphQL Server",
+  "main": "index.js",
+  "scripts": {
+    "push": "git push origin master && git push --tags ssb master"
+  },
+  "keywords": [
+    "ssb",
+    "graphql",
+    "open-app",
+    "patchql"
+  ],
+  "author": "Luandro <luandro@gmail.com>",
+  "repository": {
+    "url": "https://github.com/luandro/patchql-graphql"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "jsbot-patchql": "^1.0.5"
+  },
+  "devDependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
+  }
+}
